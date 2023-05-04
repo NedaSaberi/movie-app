@@ -1,8 +1,8 @@
 const URL =
-  "https://api.themoviedb.org/3/trending/all/day?api_key=26c7b793e8b2b7b167286399defad751";
+  "https://api.themoviedb.org/3/trending/all/day?api_key=[YOUR_API_KEY]";
 const IMG_PATH = "https://image.tmdb.org/t/p/original";
 const SEARCH_URL =
-  "https://api.themoviedb.org/3/search/movie?api_key=26c7b793e8b2b7b167286399defad751&query=";
+  "https://api.themoviedb.org/3/search/movie?api_key=[YOUR_API_KEY]&query=";
 const form = document.querySelector(".search-section");
 const searchBox = document.querySelector("#search-box");
 const container = document.querySelector(".container");
